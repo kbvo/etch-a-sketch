@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 480px;
+    border: 1px solid black;
+    justify-content: center;
+    margin-top: 100px;
+}
+.square {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
